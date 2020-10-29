@@ -250,7 +250,7 @@ public class frmServer extends javax.swing.JFrame {
 
                 Color color = new Color(red, green, blue);
                 backgroundColorPanel.setBackground(color);
-                JOptionPane.showMessageDialog(null, "RGB color: " + receiveColorCode[0] + "," + receiveColorCode[1] + "," + receiveColorCode[2]);
+                JOptionPane.showMessageDialog(null, "RGB color: " + receiveColorCode[0] + ", " + receiveColorCode[1] + ", " + receiveColorCode[2]);
             }
 
             @Override
